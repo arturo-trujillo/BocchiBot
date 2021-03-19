@@ -16,8 +16,8 @@ async def on_message(message):
     # we do not want the bot to reply to itself
     if message.author == client.user:
         return
-    if message.content.startswith('hola'):
-        await message.channel.send('Callate wey ')
+    if message.content.startswith('Hola bocchi'):
+        await message.channel.send('Hola! Que tal? Espero que estes teniendo un buen dia! ')
     if message.content.startswith("gg"):
       await message.channel.send("WP GG Yoking We Shillin Solobolo")
     #Weather API
